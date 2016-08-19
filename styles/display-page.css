@@ -1,0 +1,45 @@
+
+.main {
+width: 800px;
+height: 500px;
+font-size: 0px;
+background-color: blue;
+margin: 0 auto;
+}
+
+.top {
+width: 400px;
+height: 200px;
+border: 1px solid black;
+box-sizing: border-box;
+display: inline-block;
+}
+
+.green {
+background-color: #3D7900;
+}
+
+.blue {
+background-color: #0048FB;
+}
+
+
+.bottom {
+width: 33.33%;
+height: 300px;
+display: inline-block;
+box-sizing: border-box;
+border: 1px solid black;
+}
+
+.gray {
+background-color: #808080;
+}
+
+.black {
+background-color: #000000;
+}
+
+.gold {
+background-color: #F3A633;
+}
