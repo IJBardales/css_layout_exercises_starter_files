@@ -1,1 +1,88 @@
+html {
+	background: url('../images/outerspace_landscape.jpeg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #808080;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+
+
+/* I didn't use vertical-align middle to center nav image */
+nav img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	top: 6px;
+}
+
+
+/* I used position relative for nav ul */
+
+
+/* Solution says to display ul as inline block, instead I set ul li to inline-block */
+
+nav ul {
+	position: relative;
+	left: 48px;
+	top: -47px;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav ul li::after {
+	content: " \007c" ;
+}
+
+nav ul li a:hover {
+	color: black;
+}
+	
+
+
+/* Solution sets the dotted box set to relative, I used a parent div set to relative and set dashed box to fixed */	
+
+.pet_parent {
+	position: relative;
+}
+
+
+.pet_dash {
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	position: fixed;
+	top: 50%;
+	bottom: 50%;
+	margin-top: -150px;
+	margin-left: 300px;
+}
+
+.kitty,
+.pup {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
+
+.kitty {
+	top: -80px;
+	left: -80px;
+}
+
+.pup {
+	bottom: -80px;
+	right: -80px;
+}
 
