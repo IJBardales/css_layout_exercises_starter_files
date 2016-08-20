@@ -1,0 +1,50 @@
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	background-color: rgb(238, 238, 238);
+	border: 1px solid rgb(221,221,221);
+	padding: 2px;
+}
+
+
+header h1 {
+	float: left;
+	font-size: 18px;
+	font-weight: normal;
+	color: black;
+	padding-left: 5px;
+}
+
+header a h1:hover {
+	text-decoration: underline;
+
+}
+
+
+nav {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+}
+
+
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px; 
+	color: #551aa1;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+header h1,
+nav ul li {
+	font-size: 18px;
+}
