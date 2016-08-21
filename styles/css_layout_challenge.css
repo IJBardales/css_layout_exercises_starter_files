@@ -41,7 +41,7 @@ nav {
 
 
 nav ul li {
-	text-decoration: none;
+	list-style-type: none;
 	display: inline-block;
 	margin-right: 10px; 
 	color: #551aa1;
@@ -85,3 +85,25 @@ button {
 	border: 1px solid #dddddd;
 }
 
+
+
+.classifides li {
+	list-style-type: none;
+}
+
+.classifides li::before {
+	content: '\f006';
+}
+
+
+
+
+
+.date_locale {
+	color: gray;
+
+}
+
+.classifides li a {
+	text-decoration: none;
+}
