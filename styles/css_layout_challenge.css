@@ -3,6 +3,13 @@ body {
 	font-family: sans-serif;
 }
 
+
+main {
+	padding-top: 52px;
+}
+
+
+
 header {
 	position: fixed;
 	width: 100%;
@@ -48,3 +55,33 @@ header h1,
 nav ul li {
 	font-size: 18px;
 }
+
+form {
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+input[type="search"] {
+	width: 400px;
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	padding: 2px;
+}
+
+button {
+	width: 35px;
+	height: 35px;
+	padding: 2px;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+}
+
